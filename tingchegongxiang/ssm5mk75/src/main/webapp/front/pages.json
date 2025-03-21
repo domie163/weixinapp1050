@@ -1,0 +1,182 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#FFB61E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+			,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/cheliangxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/cheliangxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/cheliangxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/tingchechang/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingchechang/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingchechang/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/tingcheyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingcheyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingcheyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/tingchejiaofei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingchejiaofei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tingchejiaofei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white"
+		}
+	}
+					, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#FF9900",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "停车共享小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#A98175",
+		"selectedColor": "#2E4E7E",
+		"borderStyle": "white",
+		"backgroundColor": "#FFC773",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+												,{
+				"pagePath": "pages/tingchechang/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "停车场"
+			}
+						
+						
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
